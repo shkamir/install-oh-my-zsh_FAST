@@ -1,7 +1,11 @@
 # you can always look for oh my zsh on 
 ### [oh-my-zsh github repo](https://github.com/ohmyzsh/ohmyzsh)
 # and look for fancy and nice themes and plugins there
-
+##### also remember that you have to give the script right permissions
+##### for that just run <code>chmod +X [file].sh </code> 
+#### OR
+##### <code>chmod +X [file].sh </code> 
+ 
 
 
 
