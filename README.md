@@ -1,6 +1,6 @@
 # you can always look for oh my zsh on 
 ### [oh-my-zsh github repo](https://github.com/ohmyzsh/ohmyzsh)
-# and look for fancy na dnice themes and plugins there
+# and look for fancy and nice themes and plugins there
 
 
 
