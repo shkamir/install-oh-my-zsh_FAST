@@ -1,16 +1,6 @@
 #!/bin/bash
 
-# install zsh and git 
-sudo yum install zsh git
+sudo yum install git
 
-# change the default shell to zsh
-chsh -s /bin/zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 
-# getting zsh and runnig the script of oh my zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# going into zsh shell manuallY
-zsh
-
-# executing zshrc file so the configurations get executed
-source ~/.zshrc
