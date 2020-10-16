@@ -1,16 +1,8 @@
 #!/bin/bash
 
-# install zsh and git 
-sudo zypper install zsh git
+sudo zypper install git
 
-# change the default shell to zsh
-chsh -s /bin/zsh
 
-# getting zsh and runnig the script of oh my zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# going into zsh shell manuallY
-zsh
+sh -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
 
-# executing zshrc file so the configurations get executed
-source ~/.zshrc

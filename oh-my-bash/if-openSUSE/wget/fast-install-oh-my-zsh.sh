@@ -1,4 +1,7 @@
 #!/bin/bash
-sudo zypper install zsh git
-chsh -s /bin/zsh
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo zypper install  git
+
+
+
+sh -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
+
