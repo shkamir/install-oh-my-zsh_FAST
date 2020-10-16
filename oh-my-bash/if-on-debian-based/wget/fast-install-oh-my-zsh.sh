@@ -1,4 +1,4 @@
 #!/bin/bash
-sudo apt install zsh git
-chsh -s /bin/zsh
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo apt install git
+
+bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
